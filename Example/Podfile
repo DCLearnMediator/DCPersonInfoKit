@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DCPersonInfoKit_Example' do
+  pod 'DCPersonInfoKit', :path => '../'
+
+  target 'DCPersonInfoKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
